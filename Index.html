@@ -10,15 +10,15 @@
   <h1 id="resultText"></h1>
   <script>
     
-    let response = prompt("Nag jakol kanaba? Type kanina pa or araw araw");
+    let response = prompt("Can you be my girlfriend? Type Yes or No");
     let outputText = "";
     
-    if (response=="kanina pa"){
-      outputText = "beri good";
-    }else if(response=="araw araw"){
-      outputText = "nako laspag";
+    if (response=="Yes"){
+      outputText = "Date tayo sa Saturday!";
+    }else if(response=="No"){
+      outputText = "sorry ganto lang ako";
     }else{
-      outputText = "kinginamo!!";
+      outputText = "please type Yes or No!!";
     }
     
     document.getElementById("resultText").innerHTML = outputText;
